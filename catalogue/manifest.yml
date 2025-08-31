@@ -57,14 +57,14 @@ metadata:
   name: catalogue
   namespace: roboshop 
   labels:
-      component: catalogue  
-      project: roboshop 
-      tier: app
+    component: catalogue  
+    project: roboshop 
+    tier: app
 spec:
   selector:
-      component: catalogue  
-      project: roboshop 
-      tier: app
+    component: catalogue  
+    project: roboshop 
+    tier: app
   ports:
   - protocol: TCP
     port: 8080   #service port
